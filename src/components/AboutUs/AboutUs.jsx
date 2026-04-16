@@ -17,8 +17,8 @@ import img8 from "../../assets/images/user3.jpg";
 import Accordion from "./S";
 import Skills from "./Skills";
 import SubTitle from "../SubTitle";
-import { Swiper, SwiperSlide } from "Swiper/react";
-import { Autoplay, Pagination, Navigation } from "Swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 function AboutUs() {
   const CreativeTeam = [

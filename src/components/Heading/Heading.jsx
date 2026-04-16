@@ -2,8 +2,8 @@ import React from 'react'
 import './Heading.css'
 import img1 from '../../assets/images/main_banner1.jpg'
 import img2 from '../../assets/images/main_banner2.jpg'
-import { Swiper, SwiperSlide } from "Swiper/react";
-import {  Pagination } from 'Swiper/modules';
+import { Swiper, SwiperSlide } from "swiper/react";
+import {  Pagination } from 'swiper/modules';
 import img_1 from '../../assets/images/heading-1.png'
 import img_2 from '../../assets/images/heading-2.png'
 import img_3 from '../../assets/images/heading-3.png'

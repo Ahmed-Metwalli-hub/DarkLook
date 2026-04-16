@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
 import './Navbar.css'
 import {Link, NavLink} from 'react-router-dom'
-import { Swiper, SwiperSlide } from 'Swiper/react';
-import { Autoplay } from 'Swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import banner1 from '../../assets/images/menu-banner1.jpg'
 import banner2 from '../../assets/images/menu-banner2.jpg'
