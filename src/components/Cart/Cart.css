@@ -1,10 +1,159 @@
-.Cart .totalCart{
-    border: 3px dashed #868686;
-    cursor: pointer;
-    transition: 0.3s ;
+.Cart .totalCart {
+  border: 3px dashed #868686;
+  cursor: pointer;
+  transition: 0.3s;
 }
-.Cart .totalCart:hover{
-    border: 1px solid var(--main-color);
-    transform: scale(1.05);
-    box-shadow: 0 0 15px #858585 ;
+.Cart .totalCart:hover {
+  border: 1px solid var(--main-color);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #858585;
+}
+
+.Cart table {
+  overflow-x: auto;
+}
+
+/* Responsive Design for Tablet Screens */
+@media (max-width: 992px) {
+  .Cart .container-fluid {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+/* Responsive Design for Mobile Screens */
+@media (max-width: 768px) {
+  .Cart .card-img {
+    width: 40px !important;
+  }
+
+  .Cart table {
+    font-size: 12px;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .Cart table thead th,
+  .Cart table tbody td {
+    padding: 8px 4px !important;
+    font-size: 11px;
+  }
+
+  .Cart table th {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .Cart .bg-black.border {
+    border-width: 1px !important;
+  }
+
+  .Cart input[type="number"] {
+    padding: 4px !important;
+    font-size: 10px;
+    width: 40px !important;
+  }
+
+  .Cart .btn {
+    padding: 4px 8px !important;
+    font-size: 12px !important;
+  }
+
+  .Cart .btn-danger {
+    font-size: 14px !important;
+  }
+
+  .Cart .totalCart {
+    font-size: 12px;
+    padding: 12px !important;
+  }
+
+  .Cart .totalCart div {
+    font-size: 12px;
+  }
+
+  .w-md-50 {
+    width: 100% !important;
+  }
+
+  .flex-md-row {
+    flex-direction: column !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .Cart {
+    
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  .Cart .container-fluid {
+
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  .Cart table {
+    
+    font-size: 10px;
+    margin-top: 10px !important;
+  }
+
+  .Cart table thead th,
+  .Cart table tbody td {
+    padding: 6px 3px !important;
+    font-size: 9px;
+  }
+
+  .Cart table th {
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  .Cart .card-img {
+    width: 35px !important;
+  }
+
+  .Cart input[type="number"] {
+    padding: 3px !important;
+    font-size: 9px;
+    width: 35px !important;
+    max-width: 35px !important;
+  }
+
+  .Cart .btn {
+    padding: 3px 6px !important;
+    font-size: 10px !important;
+  }
+
+  .Cart .btn-danger {
+    font-size: 12px !important;
+    padding: 4px !important;
+  }
+
+  .Cart .totalCart {
+    width: 100% !important;
+    font-size: 11px;
+    padding: 10px !important;
+    margin-top: 15px;
+  }
+
+  .Cart .totalCart div {
+    font-size: 11px;
+  }
+
+  .Cart .w-25 {
+    width: 100% !important;
+  }
+
+  .ms-1 {
+    margin-left: 4px !important;
+  }
+
+  .my-5 {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
 }
