@@ -1,5 +1,5 @@
 import React, { useContext, useRef } from "react";
-import "./logo.css";
+import "./Logo.css";
 import img1 from "../../assets/images/logo.png";
 import { FaCartArrowDown } from "react-icons/fa";
 import { IoMdSearch } from "react-icons/io";

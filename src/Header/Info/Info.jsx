@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { IoChevronDownSharp } from "react-icons/io5";
-import './info.css'
+import './Info.css'
 
 function Info() {
   const drobDown_1 = useRef(null)
