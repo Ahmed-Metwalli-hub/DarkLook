@@ -1,0 +1,63 @@
+.Heading .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: transparent;
+    border: 1px solid #fff;
+    opacity: 1;
+}
+.Heading .swiper-pagination-bullet-active {
+    border: 2px dashed var(--main-color);
+    width: 22px;
+    height: 22px;
+    position: relative;
+    animation: role-active linear infinite 1s;
+}
+@keyframes role-active {
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+.Heading .swiper-pagination-bullet-active::after{
+    content: '';
+    width: 30%;
+    height: 30%;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    
+}
+.Heading .flex.gap-3 b{
+    transition: 0.5s;
+    cursor: pointer;
+}
+.Heading .flex.gap-3 b:hover{
+    color: var(--main-color);
+}
+.Heading .flex.gap-3 div b ~ p{
+    font-style: italic;
+    font-size: 14px;
+}
+.Heading .card-image{
+
+    width: 100%;
+}
+.Heading .container .card-image.logo{
+    width: 100%;
+    height:70vh
+}
+@media (max-width: 768px){
+    .Heading .container .card-image.logo{
+        width: 50%;
+        height:50vh;
+        
+
+    }
+    .Heading 
+
+}

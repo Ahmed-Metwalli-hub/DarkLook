@@ -1,0 +1,67 @@
+.info{
+    color: var(--body-color);
+}
+.info p{
+    text-transform: uppercase;
+}
+.info .container{
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.right div{
+    cursor: pointer;
+    position: relative;
+}
+.info .container .right > div .one{
+    text-transform: capitalize;
+    width: 180px;
+    font-size: 13px;
+    background: var(--nav-footer-bg);
+    top: 150%;
+    left: 0;
+    white-space: nowrap;
+    display: none;
+    z-index: 10;
+    
+    
+}
+.info .container .right .drobDown{
+    padding: 10px;
+}
+.info .container .right .drobDown p{
+    padding: 10px;
+}
+.info .container .right > div .one.open{
+    display: block;
+}
+.info .container .right > div .one p{
+    transition: 0.5s;
+}
+.info .container .right > div .one p:hover{
+    background: var(--main-color);
+    
+}
+@media (max-width: 768px){
+    .info .date{
+        display: none;
+    }
+    .info .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+    .info .container .right > div .one{
+        width: 120px;
+        font-size: 10px;
+        left: -20%;
+    }
+    .info .container .right .drobDown{
+        padding: 3px;
+    }
+    .info .container .right .drobDown p{
+        padding: 5px;
+    }
+}

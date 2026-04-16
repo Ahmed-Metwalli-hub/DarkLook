@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --font-family: "Poppins", serif;
+  --main-color: #fa4251;
+  --body-color: #cccccc;
+  --light-color: #fff;
+  --dark-color: #000;
+  --nav-footer-bg:#424242;
+
+}
+
+main{
+  font-family: var(--font-family) ,sans-serif;
+  background: var(--dark-color);
+  color: var(--light-color);
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Product  div:nth-of-type(1) img{
+  width:80%;
+  cursor:pointer;
+}
+.Product  div:nth-of-type(1) img:nth-of-type(2){
+  display: none;
+}
+.Product  .one:hover div:nth-of-type(1) img:nth-of-type(1){
+  display: none;
+}
+.Product  .one:hover div:nth-of-type(1) img:nth-of-type(2){
+  display: block;
+}
+.Product  .col-3.one{
+  position: relative;
+  overflow: hidden;
+
+}
+.Product   div div:nth-of-type(2) p {
+  color: var(--body-color);
+}
+.Product   div div:nth-of-type(2) .stars{
+  color: var(--main-color);
+}
+.Product   div div:nth-of-type(2) strong{
+  font-weight: normal;
+  font-size: larger;
+}
+.Product  div .process {
+  position: absolute;
+  transition: 0.5s;
+  top: 10px;
+  left: -100px;
+  width: max-content;
+  color:var(--light-color);
+  z-index: 10;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  
+  
+}
+.Product  .col-3.one:hover .process {
+  left: 10px;
+
+}
+.Product  div .process div{
+  transition: 0.3s;
+  overflow: hidden;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  
+}
+.Product  div .process div:hover{
+  background-color: var(--light-color);
+  rotate: 360deg;
+  color: var(--main-color);
+}
+.Product  div .process div:nth-of-type(1){
+  border-right: 1px solid #fff;
+}
+
+
+.Product  .swiper-pagination-bullet{
+  opacity: 1;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.Product  .swiper-pagination-bullet-active{
+  opacity: 1;
+  background-color: var(--main-color) !important ;
+}
+.sub-banner {
+  overflow: hidden;
+  cursor: pointer;
+}
+.sub-banner img{
+  transition: 0.5s;
+}
+.sub-banner img:hover{
+  transform: scale(1.1);
+}
+body{
+  overflow-x: hidden;
+}
+nav li a.active{
+  background-color: var(--main-color);
+}
+.SingleProPage .row .col-lg-3.col-md-12.justify-content-start.d-flex.flex-column.gap-2 a:not(:last-of-type), .Cart .row .col-lg-3.col-md-12.justify-content-start.d-flex.flex-column.gap-2 a:not(:last-of-type) , .Blog .row .col-lg-3.col-md-12.justify-content-start.d-flex.flex-column.gap-2 a:not(:last-of-type),.SinglePost .row .col-lg-3.col-md-12.justify-content-start.d-flex.flex-column.gap-2 a:not(:last-of-type),.AboutUs .row .col-lg-3.col-md-12.justify-content-start a:not(:last-of-type){
+    
+    border-bottom: 1px dotted var(--body-color);
+    
+    
+    
+}
+.SingleProPage .row .col-lg-3.col-md-12.justify-content-start.d-flex.flex-column.gap-2 a, .Cart .row .col-lg-3.col-md-12.justify-content-start.d-flex.flex-column.gap-2 a, .Blog .row .col-lg-3.col-md-12.justify-content-start.d-flex.flex-column.gap-2 a ,.SinglePost .row .col-lg-3.col-md-12.justify-content-start.d-flex.flex-column.gap-2 a,.AboutUs .row .col-lg-3.col-md-12.justify-content-start a{
+    transition: 0.3s;
+    padding: 5px;
+    font-size: 15px;
+    transition: 0.3s;
+    color: var(--body-color);
+     text-decoration : none;
+    
+}
+.SingleProPage .row .col-lg-3.col-md-12.justify-content-start.d-flex.flex-column.gap-2 a:hover, .Cart .row .col-lg-3.col-md-12.justify-content-start.d-flex.flex-column.gap-2 a:hover , .Blog .row .col-lg-3.col-md-12.justify-content-start.d-flex.flex-column.gap-2 a:hover , .SinglePost .row .col-lg-3.col-md-12.justify-content-start.d-flex.flex-column.gap-2 a:hover, .AboutUs .col-lg-3.col-md-12.justify-content-start a:hover{
+    color: var(--main-color);
+}
+.Heading .card-image{
+
+    width: 100%;
+}
+.Heading .container .card-image.logo{
+    width: 100%;
+    height:70vh
+}
+@media (max-width: 768px){
+    .Heading .container .card-image.logo{
+        width: 50%;
+        height:50vh;
+        
+        
+
+    }
+  
+
+}

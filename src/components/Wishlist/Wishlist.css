@@ -1,0 +1,20 @@
+
+.Wishlist .row .col-lg-3.col-md-12.justify-content-start.d-flex.flex-column.gap-2 a:not(:last-of-type) , .AboutUs .row .col-lg-3.col-md-12.justify-content-start.d-flex.flex-column.gap-2 a:not(:last-of-type){
+    
+    border-bottom: 1px dotted var(--body-color);
+    
+    
+    
+}
+ .Wishlist .row .col-lg-3.col-md-12.justify-content-start.d-flex.flex-column.gap-2 .text-decoration-none , .AboutUs .row .col-lg-3.col-md-12.justify-content-start.d-flex.flex-column.gap-2 .text-decoration-none{
+    transition: 0.3s;
+    padding: 5px;
+    font-size: 15px;
+    transition: 0.3s;
+    color: #fff ;
+    color: var(--body-color);
+    
+}
+.Wishlist .row .col-lg-3.col-md-12.justify-content-start.d-flex.flex-column.gap-2 a:hover , .AboutUs .row .col-lg-3.col-md-12.justify-content-start.d-flex.flex-column.gap-2 a:hover{
+    color: var(--main-color);
+}

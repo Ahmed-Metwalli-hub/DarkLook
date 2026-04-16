@@ -1,0 +1,10 @@
+.Cart .totalCart{
+    border: 3px dashed #868686;
+    cursor: pointer;
+    transition: 0.3s ;
+}
+.Cart .totalCart:hover{
+    border: 1px solid var(--main-color);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #858585 ;
+}

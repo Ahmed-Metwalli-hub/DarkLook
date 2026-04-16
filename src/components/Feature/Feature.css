@@ -1,0 +1,76 @@
+
+.Feature .flex.justify-content-between{
+    margin-top: 90px !important;
+
+}
+.Feature .fs-5.fw-bold.text-uppercase {
+    transition: 0.5s;
+    cursor: pointer;
+}
+.Feature .fs-5.fw-bold.text-uppercase:hover {
+    color: var(--main-color);
+    letter-spacing: 1px;
+}
+.Feature .flex.m-0.gap-5 li a {
+    transition: 0.5s;
+}
+.Feature .flex.m-0.gap-5 li a:hover{
+    color: var(--main-color) !important ;
+}
+.Feature .flex.m-0.gap-5 li a.active {
+    color: var(--main-color) !important;
+}
+.Feature .flex.m-0.gap-5 li a.active::after {
+    content: ')';
+    padding-left: 7px;
+    color: #fff;
+}
+.Feature .flex.m-0.gap-5 li a.active::before {
+    content: '(';
+    padding-right: 7px;
+    color: #fff;
+    
+}
+.Feature .slide-icon{
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 20px;
+}
+.Feature .slide-icon.slide-to-right:hover{
+    color: var(--main-color);
+    animation: slide-icon alternate infinite 0.4s ;
+    
+}
+.Feature .slide-icon.slide-to-left:hover{
+    color: var(--main-color);
+    animation: slide-icon-left alternate infinite 0.4s ;
+
+}
+@keyframes slide-icon {
+    100%{
+        transform: translateX(5px);
+    }
+    
+}
+@keyframes slide-icon-left {
+    100%{
+        transform: translateX(-5px);
+    }
+    
+}
+@media (max-width: 768px) {
+    
+    .Feature {
+    position: relative;
+}
+.Feature ul{
+    position: absolute;
+    top: 120%;
+    left: 0;
+    z-index: 888;
+    
+}
+}
+

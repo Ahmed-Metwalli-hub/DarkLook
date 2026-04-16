@@ -1,0 +1,51 @@
+
+.proBage{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+
+}
+.proBage .w-50.h-75 img{
+    animation: proBage 2s infinite ease-in-out;
+    
+
+}
+@keyframes proBage {
+    0%{
+        transform: scale(0.97);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+            transform: scale(0.97);
+            filter: blur(1px);  
+        }
+}
+.SingleProPage .stars{
+    color: var(--main-color);
+}
+.SingleProPage .images div{
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 3px;
+    border: 1px solid #fff;
+}
+.SingleProPage .images div:hover{
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 8px #fff;
+    border: 1px solid var(--main-color);
+    
+    
+}
+.SingleProPage .images img{
+    transition: 0.3s;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.SingleProPage .images img:hover{
+    border-radius: 50%;
+    transform: scale(0.9);
+}

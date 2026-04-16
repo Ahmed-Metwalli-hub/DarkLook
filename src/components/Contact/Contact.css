@@ -1,0 +1,44 @@
+
+.Contact .col-lg-3.col-md-12 > b ,.Shop .col-lg-3.col-md-12 > b{
+    display: block;
+    font-size: 19px;
+    letter-spacing: 1px;
+    border-bottom: 2px solid var(--body-color);
+}
+.Contact .col-lg-3.col-md-12  p{
+    color: #888888;
+    font-size: 14px;
+}
+.Contact .col-lg-3.col-md-12  div ,.Shop .col-lg-3.col-md-12{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 10px;
+}
+.Contact  .col-lg-3.col-md-12.mt-3{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Contact .col-lg-3.col-md-12 a ,.Shop .col-lg-3.col-md-12 > a{
+    display: block;
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-bottom: 2px dotted var(--body-color);
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+    
+    
+}
+.Contact .col-lg-3.col-md-12 a:hover ,.Shop .col-lg-3.col-md-12 a:hover{
+    color: var(--main-color);
+}
+.Contact .flex.gap-4.flex-column ::placeholder{
+    opacity: 0.7;
+    font-size: 15px;
+}
