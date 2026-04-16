@@ -11,8 +11,8 @@ import pro5 from '../../../assets/images/product/product5.jpg'
 import pro5Hover from '../../../assets/images/product/product5-1.jpg'
 import pro7 from '../../../assets/images/product/product7.jpg'
 import pro7Hover from '../../../assets/images/product/product7-1.jpg'
-import {Swiper , SwiperSlide} from 'Swiper/react'
-import {Autoplay , Pagination , Navigation } from 'Swiper/modules'
+import {Swiper , SwiperSlide} from 'swiper/react'
+import {Autoplay , Pagination , Navigation } from 'swiper/modules'
 import Product from "../Product";
 import { ApiContext } from '../../../Context/ApiContext'
 

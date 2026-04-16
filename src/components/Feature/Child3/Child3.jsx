@@ -12,8 +12,8 @@ import pro12Hover from '../../../assets/images/product/product9-1.jpg'
 import pro13 from '../../../assets/images/product/product6.jpg'
 import pro13Hover from '../../../assets/images/product/product6-1.jpg'
 import Stars from '../Stars'
-import {Swiper , SwiperSlide} from 'Swiper/react'
-import {Autoplay , Pagination , Navigation } from 'Swiper/modules'
+import {Swiper , SwiperSlide} from 'swiper/react'
+import {Autoplay , Pagination , Navigation } from 'swiper/modules'
 import { FaHeart } from "react-icons/fa";
 import { FaCartArrowDown } from "react-icons/fa";
 import Product from '../Product';
