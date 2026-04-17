@@ -57,14 +57,14 @@ function Cart() {
   ));
   return (
     <div className="Cart container-fluid">
-      <div className="row">
-        <div className="col-lg-3 col-md-12 col-sm-12 justify-content-start d-flex flex-column gap-2">
-          <div className=" my-5">
+      <div className="row container w-100 flex">
+        <div className="col-lg-3 col-md-12 col-sm-12 justify-content-center align-items-start d-flex  gap-2">
+          <div className=" my-5 w-75">
             <img src={img} alt="" className="w-100" />
           </div>
         </div>
         <div className="col-lg-9 col-md-12 col-sm-12 px-2 flex flex-column gap-3 mb-5">
-          <table className=" table border border-1 mt-5 text-center align-middle ">
+          <table className=" table mt-5 text-center align-middle ">
             <thead>
               <tr>
                 <th className="bg-black border border-1 text-light" scope="col">
